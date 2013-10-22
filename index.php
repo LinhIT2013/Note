@@ -8,12 +8,12 @@ $(document).ready(function(){
   dataType: "xml",// khai bao voi trinh duyet dang du lieu la xml 
   success: function(xml) {//du lieu tra ve do vao bien xml 
          //xu ly dữ liệu dổ về 
-         $(xml).find('khaigiang').each(function(){//tim các element khaigiang trong data xml  
+         $(xml).find('ghichu').each(function(){//tim các element khaigiang trong data xml  
      		var id = $(this).attr('id');//truy xuất vao doi tuong id  va gan vao bien id 
       	var time = $(this).find('time').text();//tim cac element lop trong doi tuong hien hanh 
       	vartieude = $(this).find('tieude').text();
       	var note = $(this).find('note').text();//tim cac element gia trong doi tuong hien hanh 
-      	var kieubao = $(this).find('kieubao').text();
+      	var kieubao = $(this).find('kieu').text();
       	var thoigianbao = $(this).find('thoigianbao').text();
         	//xuat du lieu
         	var data = "<div>";//tao 1 the div de do du lieu ra 

@@ -1,3 +1,4 @@
+<title>Ghi chú của bạn.</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.js"></script>
 <script> 
@@ -27,4 +28,8 @@ $(document).ready(function(){
 }); 
 </script>
 
-<?php
+<body>
+  <div id="wrap">
+  
+  </div>
+</body>
